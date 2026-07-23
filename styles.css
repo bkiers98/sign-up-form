@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'allerdisplay';
+    src:
+        url('fonts/AllerDisplay.woff2') format('woff2'),
+        url('fonts/AllerDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex; 
+
+    height: 100vh;
+
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.logo-graphic {
+    background-image: url('images/74160011_lo_res.jpg');
+    background-position: center;
+
+    padding-top: 25vh;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: rgb(50 50 50 / 80%)
+}
+
+#logo-image {
+    width: 25%;
+    height: auto;
+
+    padding: 20px 0;
+}
+
+.logo h1 {
+    font-family: 'allerdisplay', 'Arial Bold', sans-serif;
+    font-size: calc(1rem + .5vw);
+    color: white;
+}
+
+.form-container {
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #F5F5F5;
+}
+
+.form-container > p,
+.form-container .form-intro {
+    margin: 40px 40px 40px 40px;
+}
+
+.form-intro {
+    font-size: calc(.8rem + .5vw)
+}
+
+.form-intro p {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    appearance: none;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 2px 5px darkgray;
+
+    padding: 20px 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+fieldset > p {
+    width: 100%;
+}
+
+fieldset > div {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 45%;
+}
+
+input {
+    
+    appearance: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+form label {
+    display: block;
+    font-family: inherit;
+    font-size: .5rem;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+}

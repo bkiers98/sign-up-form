@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Aller Display';
+    src: url('AllerDisplay.woff2') format('woff2'),
+        url('AllerDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
